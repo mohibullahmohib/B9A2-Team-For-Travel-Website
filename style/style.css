@@ -217,7 +217,7 @@ body {
 
 }
 
-.photo-g-1{
+.photo-g-1 {
     margin: 0 auto;
     justify-content: center;
     text-align: center;
@@ -271,6 +271,7 @@ body {
     font-weight: 800;
     padding: 10px;
 }
+
 .hotel p {
     color: #5A5A5D;
     font-size: 16px;
@@ -305,7 +306,7 @@ body {
     font-weight: 400;
 }
 
-.price{
+.price {
     display: flex;
     margin: 0 auto;
     align-items: center;
@@ -314,13 +315,15 @@ body {
 
 
 }
-.price-tag{
+
+.price-tag {
     width: 573px;
     height: 284px;
     border-radius: 16px;
     background: rgba(233, 68, 68, 0.05);
 
 }
+
 .price-tag img {
     width: 64px;
     height: 64px;
@@ -352,18 +355,72 @@ body {
     margin: 0 auto;
     max-width: 1170px;
     height: 500px;
-    background-image: url('../Images/Group 13.png');
+    background-image: url('../Images/Group 39.png');
     background-repeat: no-repeat;
     border-radius: 16px;
+    text-align: justify;
 }
 
+.Deals-Banner {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
 
+}
 
+.Deals-Banner, .Time {
+    display: flex;
+}
 
+.Deals-Banner, .Time, .img {
+    width: 24px;
+    height: 24px;
+}
 
+.Deals-Banner, .Max {
+    display: flex;
+}
 
+.Deals-Banner, .Max, .img {
+    width: 24px;
+    height: 24px;
+}
+.Location{
+    display: flex;
+}
 
+.Deals-Banner, .Location, .img {
+    width: 24px;
+    height: 24px;
+}
 
+.Deals-Banner, .Location, .img {
+    display: flex;
+}
+
+.footer-travel{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+.footer-logo{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+#logo-description{
+    width: 650px;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
 
 
 
